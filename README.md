@@ -10,7 +10,7 @@ jupyter notebook上でGraphillionを動かし格子グラフと秋田県モデ�
 * matplotlib 1.5.3
   matplotlibは2.xからグラフの見た目が変更されて見づらいのでバージョンを落としている
 
-上記のものに加えて，netowrkx，ipython，jupyter，pandasが必要．これらのパッケージは（よほど古くなければ）バージョンは気にする必要はないはず．
+上記のものに加えて，networkx，ipython，jupyter，pandasが必要．これらのパッケージは（よほど古くなければ）バージョンは気にする必要はないはず．
 
 必須ではないが，nbextensionsを導入すると目次や各セルの実行時間を表示できるようになる．
 
