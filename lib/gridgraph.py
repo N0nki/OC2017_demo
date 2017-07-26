@@ -31,6 +31,9 @@ class GridGraph:
         return G
 
     def _get_node_pos(self):
+        """
+        ノードの位置座標を返す
+        """
         n = sorted(self.nx_graph[1].keys())[1] - 1
         m = self.nx_graph.number_of_nodes() // self.n
         pos = {}
